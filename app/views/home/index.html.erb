@@ -1,1 +1,61 @@
-<h1>MAREDO</h1>
+<% content_for :title, "HOME | MAREDO ŠPORT" %>
+<div id='home'>
+  <%= render 'html_header' %>
+  <div class='block1'>
+    <div>
+      <h1>ZIMSKE POČITNICE<br>NA CERKNEM</h1>
+      <div>
+        <ul>
+          <li>19.2. - 23.2.</li>
+          <li>Smučišče Cerkno</li>
+          <li>XXX€</li>
+        </ul>
+        <%= link_to "PRIJAVA", root_path %>
+      </div>
+    </div>
+    <%= image_tag("mali-smucar") %>
+  </div>
+  <div class='block2'>
+    <h2>PONUDBA</h2>
+    <div>
+      <div>
+        <%= image_tag('sola_smucanja_maredo_2')%>
+        <p>Smučanje</p>
+      </div>
+      <div>
+        <%= image_tag('tek_na_smuceh')%>
+        <p>Tek na smučeh</p>
+      </div>
+      <div>
+        <%= image_tag('Placeholder')%>
+        <p>Plavalni tečaji</p>
+      </div>
+      <div>
+        <%= image_tag('tecaj_rolanja_maredo-8')%>
+        <p>Rolanje</p>
+      </div>
+      <div>
+        <%= image_tag('Placeholder')%>
+        <p>Rojstni dnevi</p>
+      </div>
+      <div>
+        <%= image_tag('Placeholder')%>
+        <p>Team Building</p>
+      </div>
+      <div>
+        <%= image_tag('Placeholder')%>
+        <p>Programi za šole</p>
+      </div>
+    </div>
+  </div>
+  <div class='block3'>
+    <h2>KONTAKT</h2>
+    <ul>
+      <li><a href="mailto:info@maredo.si">info@maredo.si</a></li>
+      <li><a href="tel:+38640639803">+386 (0)40 639 803</a></li>
+      <li>44702370</li>
+      <li>IBAN SI56 0205 6026 0438 250</li>
+    </ul>
+  </div>
+  <%= render 'html_footer' %>
+</div>

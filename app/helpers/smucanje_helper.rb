@@ -1,0 +1,2 @@
+module SmucanjeHelper
+end

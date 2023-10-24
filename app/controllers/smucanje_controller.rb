@@ -1,0 +1,2 @@
+class SmucanjeController < ApplicationController
+end
